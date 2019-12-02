@@ -36,6 +36,8 @@ console.log(foods);
 */
 
 // 1. Add and remove item;
+
+// ADD { push() to back; unshift() to first }
 var foods = ["rice", "bread", "noodles", "biscuits"];
 console.log(foods);
 
@@ -46,6 +48,26 @@ console.log(foods);
 foods.unshift("danis"); // to add item in first offset
 
 console.log(foods);
+
+// REMOVE { pop() to back; shift() to first }
+
+var khabar = ["vat", "ruti", "khichuri", "polaw", "jau"];
+
+console.log(khabar);
+
+khabar.pop(); // to remove an item from last; and it's also return the remove item;
+
+var lastKhabar = khabar.pop();
+console.log(khabar);
+
+console.log(lastKhabar);
+
+console.log(khabar.length);
+var firstItem = khabar.shift(); // to remove an item from first; and it's also return the remove item;
+console.log(khabar);
+
+console.log(firstItem);
+console.log(khabar.length);
 
 
 
