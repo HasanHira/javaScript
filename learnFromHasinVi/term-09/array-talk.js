@@ -60,6 +60,6 @@ for( x = 0; x < days; x++ ){
 // second method
 
 for( x in week){
-	console.log( "Week's days " + x + " index is for " + week[x]);	
+	console.log( "Week's days " + x + " index is for " + week[x]);
 }
 
